@@ -82,9 +82,17 @@ Per a que no es canvie el disseny de la pagina he estat utilitzant WPCode, per a
 
 Estava avançant molt hasta que m'he quedat bloquejat al .css arreglant-lo tantes vegades miha fet liarme i no he pogut acabar de ficar el javascript.
 Tambe volia implementar el Carrusel amb javascript per a que funcionen les fletxes laterals i ficar un desplaçament automatic a x segons.
+Tambe tinc que afegir que no he enseñat la cara dolenta del treball: he tingut errors, bloquiejs, no s'han aguardat els canvis, he eliminat coses sense voler, poc espai...
+Pero lo bo es que m'he n'he surtit de tots, gracies a la constancia.
 
+## 5. Take a way
 
+Jo de esta practica he apres molt: he apres a com utilitzar fetch i com conectar a API de Wordpress, pero sobretot he entes com funciona Wordpress i la divercitat de coses que te en ell(.
+He apres a pasar codigs(web), al wordpress via terminal i utilitzant configuracio de API per a que nomes ficant 1 comanda me entre tota la web(per pagines) al worpress(code snipset, pagines, aparençes...). 
+Tambe he apres a editar la pagina .html per a que el codi es veigue mes net al pasar-ho al wordpress. Despres he apres a anar editant el codi i mirant-ho a la vegada amb el (Live).
 
+I teu puc comprovar amb les captures que he ficat fent-ho jo amb visual studio code i despres ficant-ho via terminal al wordpress. 
+Tambe pots mirar-ho amb la meva IP entrant al wordpress i mirant que ho tinc fet be.
 
 
 
