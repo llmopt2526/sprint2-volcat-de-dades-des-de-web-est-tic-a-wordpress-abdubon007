@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MONTSIÀ30</title>
+	<!-- Fonts de Google -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+	<!-- CSS global (header, footer, navegació, breadcrumbs) -->
+	<link rel="stylesheet" href="components/common-styles.css">
+	<!-- Enllaç al fitxer CSS extern -->
+	<link rel="stylesheet" href="pagina_inici/CSS_OPT.css">
+</head>
+<body>
+	<!-- HEADER -->
+	<header>
+		<div class="barradalt">
+			<div class="header-left">
+				<img src="pagina_inici/images/LOGO.png" alt="Logo montsià30">
+				<button class="boton-h1" id="btnIniciHeader">MONTSIÀ30</button>
+			</div>
+
+			<!-- Menú de navegació -->
+			<nav class="navbar" id="navbar">
+				<div class="nav-item">
+					<a href="index.html" class="nav-link active">Inici</a>
+				</div>
+
+				<div class="nav-item dropdown">
+					<span class="nav-link dropdown-toggle">Digitalització</span>
+					<div class="dropdown-menu">
+						<a href="Digitalització/digitalitzacio.html#slide-0" class="dropdown-item">Missatgeria Instantània</a>
+						<a href="Digitalització/digitalitzacio.html#slide-1" class="dropdown-item">Presentació Web</a>
+						<a href="Digitalització/digitalitzacio.html#slide-2" class="dropdown-item">Gestió Documental</a>
+						<a href="Digitalització/digitalitzacio.html#slide-3" class="dropdown-item">Vendes Online</a>
+					</div>
+				</div>
+
+				<div class="nav-item">
+					<a href="Intranet/intranet.html" class="nav-link">Intranet</a>
+				</div>
+			</nav>
+
+			<!-- Botó hamburguesa per mòbil -->
+			<button class="menu-toggle" id="menuToggle">☰</button>
+		</div>
+	</header>
+
+	<!-- BREADCRUMBS -->
+	<nav class="breadcrumbs">
+		<div class="breadcrumbs-container">
+			<span class="breadcrumb-item active">Inici</span>
+		</div>
+	</nav>
+
+	<!-- CONTINGUT PRINCIPAL -->
+	<main>
+		<button class="btn-soste" id="btnSostenibilitat"><b>SOSTENIBILITAT</b></button>
+		<button class="btn-digi" id="btnDigitalitzacio"><b>DIGITALITZACIÓ</b></button>
+		<button class="btn-intranet" id="btnIntranet"><b>INTRANET</b></button>
+	</main>
+
+	<!-- FOOTER -->
+	<footer>
+		<div class="barrabaix">
+			<p>Correu: atencioclient@montsià30.org</p>
+			<p>Telèfon: 647 72 39 47</p>
+		</div>
+	</footer>
+
+	<!-- Scripts -->
+	<script src="pagina_inici/pagina-inici.js"></script>
+</body>
+</html>
